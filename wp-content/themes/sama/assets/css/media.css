@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media (max-width: 991px){
+    .navbar .collapse{
+    flex-direction:column;
+    padding-bottom: 2rem;}
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-top: 1rem;
+    }
+    .bg-overlay{
+        background-size: auto 250px;
+    }
+}
+
+@media (max-width: 767px){
+    .box-content{
+        padding: 2rem 1rem;
+    }
+    .pdsection{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .txt-target{
+    text-align: left;}
+    .bg-overlay{
+        background: none;
+    }
+    .donatebox{
+        margin-left: -15px;
+        margin-right: -15px;
+        border-radius: 0;
+    }
+    .bddot{
+    border-top: 1px #71A665 dotted;
+        border-left: none;
+        padding-top: 2rem;
+}
+    .ftlogo, .ftlink{
+        text-align: center;
+    }
+}
